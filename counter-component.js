@@ -5,9 +5,7 @@
 import { LitElement, html } from "lit";
 
 export class counterComponent extends LitElement {
-  static get properties() {
-    return {};
-  }
+  static get properties() {}
 
   constructor() {}
 
