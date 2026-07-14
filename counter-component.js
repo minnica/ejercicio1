@@ -5,14 +5,18 @@
 import { LitElement, html } from "lit";
 
 export class counterComponent extends LitElement {
-  static get properties() {}
+  //static get properties() {}
 
-  constructor() {}
+  //constructor() {}
 
-  increment() {}
+  //increment() {}
 
-  decrement() {}
+  //decrement() {}
 
-  render() {}
+  render() {
+    return html`
+      <h1>Ejercicio 1</h1>
+    `;
+  }
 }
 customElements.define("counter-component", counterComponent);
